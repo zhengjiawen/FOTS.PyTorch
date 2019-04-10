@@ -1,10 +1,10 @@
 {
     "name": "FOTS",
     "cuda": false,
-    "gpus": [0, 1, 2, 3],
+    "gpus": [ 1, 2],
     "data_loader": {
         "dataset":"icdar2015",
-        "data_dir": "/Users/luning/Dev/data/icdar/icdar2015/4.4/training",
+        "data_dir": "/data/home/zjw/pythonFile/masktextspotter.caffe2/lib/datasets/data/icdar2019/",
         "batch_size": 32,
         "shuffle": true,
         "workers": 4

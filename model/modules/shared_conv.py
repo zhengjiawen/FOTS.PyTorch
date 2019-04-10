@@ -11,7 +11,7 @@ class SharedConv(nn.Module):
     sharded convolutional layers
     '''
 
-    def __init__(self, bbNet: nn.Module):
+    def __init__(self, bbNet, nn.Module):
         super(SharedConv, self).__init__()
         self.backbone = bbNet
         self.backbone.eval()
